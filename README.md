@@ -10,3 +10,8 @@ This project requires Python 3 and the requests package.
 on windows
 
 'python.exe find-meteors.py'
+
+Modified with pipenv. First install pipenv then:
+
+'' python.exe -m pip install pipenv
+python.exe -m pipenv run find-meteors.py ''
