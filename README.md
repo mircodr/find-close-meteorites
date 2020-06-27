@@ -11,7 +11,12 @@ on windows
 
 'python.exe find-meteors.py'
 
-Modified with pipenv. First install pipenv then:
+Modified with pipenv. First install pipenv:
 
-'' python.exe -m pip install pipenv
-python.exe -m pipenv run find-meteors.py ''
+python.exe -m pip install pipenv
+
+then you can run the code in the virtual enviroment with
+
+python.exe -m pipenv run find-meteors.py
+
+OSS: this is windows code, in linux or mac you can run directly 'pipenv run find-meteors.py'
